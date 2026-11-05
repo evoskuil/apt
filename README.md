@@ -10,8 +10,8 @@ The repository is signed with the libbitcoin release key.
 
 ```sh
 sudo install -d -m 0755 /etc/apt/keyrings
-sudo curl -fsSL https://libbitcoin.info/apt/libbitcoin.asc -o /etc/apt/keyrings/libbitcoin.asc
-echo "deb [signed-by=/etc/apt/keyrings/libbitcoin.asc] https://libbitcoin.info/apt stable main" | sudo tee /etc/apt/sources.list.d/libbitcoin.list
+sudo curl -fsSL https://libbitcoin.org/apt/libbitcoin.asc -o /etc/apt/keyrings/libbitcoin.asc
+echo "deb [signed-by=/etc/apt/keyrings/libbitcoin.asc] https://libbitcoin.org/apt stable main" | sudo tee /etc/apt/sources.list.d/libbitcoin.list
 sudo apt update
 ```
 
